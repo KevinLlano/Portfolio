@@ -6,10 +6,12 @@ import { useState, useEffect } from "react";
 
 export default function Home() {
   const phrases = [
+    "I am a Java Developer",
+    "I am a React Developer",
     "I am a Full Stack Developer",
     "I Love Learning",
     "I am a Problem Solver",
-    "I Love Programming",
+    "Experience With AWS & Azure Cloud Services",
   ];
 
   const [currentPhrase, setCurrentPhrase] = useState(phrases[0]);
@@ -41,7 +43,7 @@ export default function Home() {
             className="text-7xl font-bold text-white"
             style={{ textShadow: "2px 2px 2px rgba(0, 0, 0, 0.8)" }}
           >
-            Kevin A. Llanos
+            Kevin Llanos
           </h1>
           
           <p

@@ -11,7 +11,7 @@ const Sidebar = () => {
           alt="Profile"
           className="w-32  h-32 rounded-full border-4 border-white object-cover " // Creates a circular image with a border
         />
-        <h1 className="mt-3 text-2xl font-bold">Kevin A. Llanos</h1>
+        <h1 className="mt-3 text-2xl font-bold">Kevin Llanos</h1>
         <hr className="mt-1 border-t-2 border-white w-full" />
 
         {/* Social Links */}
