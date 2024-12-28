@@ -1,0 +1,29 @@
+[33mcommit cdd6a339248a23f9c3d41b58bcd388d28fee851b[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Kevin Llanos <kllano2@wgu.edu>
+Date:   Sun Nov 3 10:18:05 2024 -0600
+
+    fixed the sidebar to hover purple for all tags.
+
+[33mcommit c16bd7255d56e8992256975c09fad8a160470cb2[m
+Author: Kevin Llanos <kllano2@wgu.edu>
+Date:   Sun Nov 3 10:12:28 2024 -0600
+
+    only need to add projects.
+
+[33mcommit a5f316ca14ffcac1693fd30a1ea6369099319798[m
+Author: Kevin Llanos <kllano2@wgu.edu>
+Date:   Fri Nov 1 00:10:32 2024 -0500
+
+    added profile img and icons
+
+[33mcommit d4839a7775114ab47742a50f76b65da679e516bc[m
+Author: Kevin Llanos <kllano2@wgu.edu>
+Date:   Sat Sep 21 10:48:40 2024 -0500
+
+    PortfolioSite
+
+[33mcommit df23f81e5a37894f4b844bc8fd8b1cf5a504a5a6[m
+Author: Kevin Llanos <kllano2@wgu.edu>
+Date:   Thu Sep 19 13:26:21 2024 -0500
+
+    Initial commit from Create Next App
