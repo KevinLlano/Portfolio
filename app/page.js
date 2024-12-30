@@ -61,15 +61,13 @@ export default function Home() {
   </h2>
   <hr className="border-blue-900 border-t-2 w-3/4 mx-auto mb-8" />
   
+  
   {/* Project Content Section */}
   <div className="text-center text-black text-lg mx-auto max-w-6xl">
-    <p className="mb-4">
-      Here you can showcase your most significant projects, providing descriptions, technologies used, and links to live demos or repositories.
-    </p>
     
     {/* Project Grid */}
     <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
-      <div className="project-card">
+      <div className="project-card border border-gray-500 rounded-lg shadow-md p-4">
         <div className="project-image-container relative">
           <img src="./ExpenseTracker.png" alt="Project 1" className="w-full h-auto" />
         </div>
@@ -77,25 +75,25 @@ export default function Home() {
         <p className="mt-4">
           <strong>Description:</strong> A Spring Boot-based expense tracking application that allows users to manage their finances by tracking accounts, transactions, and performing CRUD operations on their financial data.
         </p>
-        <a href="https://github.com/KevinLlano/Authenticated-ExpenseTracker.git" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">
+        <a href="https://github.com/KevinLlano/Authenticated-ExpenseTracker.git" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline hover:text-red-500 font-bold">
           GitHub Repository
         </a>
       </div>
 
-      <div className="project-card">
+      <div className="project-card border border-gray-500 rounded-lg shadow-md p-4">
         <div className="project-image-container relative">
-          <img src="./ContactList.png" alt="Project 2" className="w-full h-auto" />
+          <img src="./ContactList.png" alt="Project 2" className="w-3/4 h-auto mx-auto" />
         </div>
         <h3 className="text-black text-xl font-bold mt-2">FullStack CRUD ContactList</h3>
         <p className="mt-4">
           <strong>Description:</strong> A full-stack Java backend, React frontend CRUD application that enables users to manage contacts with features like profile image uploads and detailed contact information.
         </p>
-        <a href="https://github.com/KevinLlano/CRUD-ContactList.git" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">
+        <a href="https://github.com/KevinLlano/CRUD-ContactList.git" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline hover:text-red-500 font-bold">
           GitHub Repository
         </a>
       </div>
 
-      <div className="project-card">
+      <div className="project-card border border-gray-500 rounded-lg shadow-md p-4">
         <div className="project-image-container relative">
           <img src="./WorldMap.png" alt="Project 3" className="w-full h-auto" />
         </div>
@@ -103,12 +101,12 @@ export default function Home() {
         <p className="mt-4">
           <strong>Description:</strong> The Interactive World Map project allows users to explore global statistics by clicking on countries to view detailed data, powered by the WorldBank API. Built with Angular, HTML, CSS, JavaScript, and TypeScript, it offers a dynamic, responsive map that displays real-time country-specific information.
         </p>
-        <a href="https://github.com/KevinLlano/Interactive-World-Map.git" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">
+        <a href="https://github.com/KevinLlano/Interactive-World-Map.git" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline hover:text-red-500 font-bold">
           GitHub Repository
         </a>
       </div>
 
-      <div className="project-card">
+      <div className="project-card border border-gray-500 rounded-lg shadow-md p-4">
         <div className="project-image-container relative">
           <img src="./FullStackInventoryManagementSystem.png" alt="Project 4" className="w-full h-auto" />
         </div>
@@ -116,7 +114,7 @@ export default function Home() {
         <p className="mt-4">
           <strong>Description:</strong> This project demonstrates inventory management by filtering for engine parts and car products. It includes indexing as well as search functionality for either parts or products. CRUD is used in the project to create, update, and delete engine parts and car products. The theme of the project focuses on car products which will be car models in this case, with engine parts corresponding to each product.
         </p>
-        <a href="https://github.com/KevinLlano/Java-Frameworks2.0.git" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">
+        <a href="https://github.com/KevinLlano/Java-Frameworks2.0.git" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline hover:text-red-500 font-bold font-size-xl">
           GitHub Repository
         </a>
       </div>
