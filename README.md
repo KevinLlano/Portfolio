@@ -10,7 +10,7 @@ This portfolio website serves as a personal hub where I store and organize my pr
 
 ## Technologies Used
 - Frontend: React
-- Hosting: Netlify
+- Hosting: Netlify, EmailJS
 - Version Control: GitHub
 - Fronted Components: Next.js, TailwindCSS
 
