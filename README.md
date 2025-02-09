@@ -1,4 +1,6 @@
 # Portfolio
+## This project is linked to Netlify, where it updates synchronously.
+ **https://kevinllanos.netlify.app/**
 
 ## Overview
 This portfolio website serves as a personal hub where I store and organize my projects, certifications, education, and contact information. It’s built with React.js, Next.js, and Tailwind CSS for a clean, efficient, and easy-to-navigate experience.
