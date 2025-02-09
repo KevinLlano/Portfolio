@@ -75,14 +75,14 @@ const Sidebar = () => {
       </div>
 
       {/* Navigation Links */}
-      <div className="mt-10">
+      <div className="mt-2">
         <ul className="flex flex-col gap-4">
           {/* Home Section */}
-          <li className="hover:text-red-800 hover:text-shadow-md transition-colors duration-300 ease-in-out cursor-pointer text-lg">
-            <Link
-              href="#home"
-              className="flex items-center gap-3 w-full "
-            >
+          <li
+            className="hover:text-red-800 hover:text-shadow-md transition-colors duration-300 ease-in-out cursor-pointer text-lg
+          bg-gray-700"
+          >
+            <Link href="#home" className="flex items-center gap-3 w-full ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 x="0px"
@@ -101,7 +101,7 @@ const Sidebar = () => {
                   points="16,6.073 26.223,18 31.522,18 16,-0.073 0.48,18 5.777,18"
                 ></polygon>
               </svg>
-              <span>Home</span>
+              <span>HOME</span>
             </Link>
           </li>
 
@@ -155,11 +155,8 @@ const Sidebar = () => {
           </div>  */}
 
           {/* Projects Section */}
-          <li className="hover:text-red-800 hover:text-shadow-md transition-colors duration-300 ease-in-out cursor-pointer text-lg">
-            <Link
-              href="#projects"
-              className="flex items-center gap-3 w-full "
-            >
+          <li className="hover:text-red-800 hover:text-shadow-md transition-colors duration-300 ease-in-out cursor-pointer text-lg bg-gray-700">
+            <Link href="#projects" className="flex items-center gap-3 w-full ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 x="0px"
@@ -181,18 +178,13 @@ const Sidebar = () => {
                   points="1.396,26 0.507,30 27.1,30 27.988,26"
                 ></polygon>
               </svg>
-              <span>Projects</span>
+              <span>PROJECTS</span>
             </Link>
           </li>
 
-          
-
           {/* Contact Section */}
-          <li className="hover:text-red-800 hover:text-shadow-md transition-colors duration-300 ease-in-out cursor-pointer text-lg">
-            <Link
-              href="#contact"
-              className="flex items-center gap-3 w-full "
-            >
+          <li className="hover:text-red-800 hover:text-shadow-md shadow-2xl transition-colors duration-300 ease-in-out cursor-pointer text-lg bg-gray-700">
+            <Link href="#contact" className="flex items-center gap-3 w-full ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 x="0px"
@@ -251,11 +243,52 @@ const Sidebar = () => {
                 ></path>
               </svg>
               <span className="hover:text-red-800  cursor-pointer">
-                Contact Me!
+                CONTACT
               </span>
             </Link>
           </li>
         </ul>
+      </div>
+
+      {/* Tech Stack Section */}
+      <div className="mt-10">
+        <h2 className="text-2xl font-bold text-white ">Teck stack</h2>
+        <hr className="border-t-4 border-white" />
+        <div className="flex flex-wrap gap-2 mt-3">
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
+            alt="JavaScript"
+            className="w-10 h-10"
+          />
+          <img src="../typescript.svg" alt="Tech 2" className="w-10 h-10" />
+          <img
+            src="../python-original.svg"
+            alt="Tech 2"
+            className="w-10 h-10"
+          />
+          <img src="../java.svg" alt="Tech 2" className="w-10 h-10" />
+          <img src="html.svg" alt="Tech 3" className="w-10 h-10" />
+          <img src="css.svg" alt="Tech 3" className="w-10 h-10" />
+          <img src="../React.ico" alt="React" className="w-10 h-10" />
+          <img src="../spring.svg" alt="Tech 3" className="w-10 h-10" />
+          <img src="fastapi.svg" alt="Tech 3" className="w-10 h-10" />
+          <img src="../postgre.svg" alt="Tech 3" className="w-10 h-10" />
+          <img src="../mysql.svg" alt="Tech 3" className="w-10 h-10" />
+          <img src="../aws.svg" alt="Tech 3" className="w-10 h-10" />
+          <img src="../azure.svg" alt="Tech 3" className="w-10 h-10" />
+          <img src="../ChatGPT.png" alt="Tech 3" className="w-10 h-10" />
+          <img src="../jenkins.svg" alt="Tech 3" className="w-10 h-10" />
+          <img src="../docker.svg" alt="Tech 3" className="w-10 h-10" />
+          <img src="../selenium.svg" alt="Tech 3" className="w-10 h-10" />
+          <img src="../postman.svg" alt="Tech 3" className="w-10 h-10" />
+
+          
+      
+
+
+
+          {/* Add more logos as needed */}
+        </div>
       </div>
     </div>
   );

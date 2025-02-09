@@ -9,13 +9,28 @@ export default function Home() {
     "I am a Java Developer",
     "I am a React Developer",
     "I am a Python Developer",
-    "I am a Backend Engineer",
     "I am a Software Engineer",
     "I am a Full Stack Developer",
     "I am a Problem Solver",
     "Experience With AWS & Azure Cloud Services",
   ];
 
+  {/* Tech Stack Section */}
+  <div className="mt-10">
+  <h2 className="text-xl font-bold">Tech Stack</h2>
+  <div className="flex flex-wrap gap-2 mt-3">
+    <img src="../React.ico" alt="React" className="w-10 h-10" />
+    <img
+      src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
+      alt="JavaScript"
+      className="w-10 h-10"
+    />
+    <img src="../python-original.svg" alt="Tech 2" className="w-10 h-10" />
+    <img src="../typescript.svg" alt="Tech 2" className="w-10 h-10" />
+    <img src="/path/to/logo3.png" alt="Tech 3" className="w-10 h-10" />
+    {/* Add more logos as needed */}
+  </div>
+  </div>
   const [currentPhrase, setCurrentPhrase] = useState(phrases[0]);
   const [index, setIndex] = useState(0);
 
@@ -56,6 +71,8 @@ export default function Home() {
           </p>
         </div>
       </section>
+
+      
 
       <section id="projects" className="min-h-screen py-8 px-4 mb-8">
         <h2
