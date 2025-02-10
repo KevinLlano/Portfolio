@@ -75,12 +75,12 @@ const Sidebar = () => {
       </div>
 
       {/* Navigation Links */}
-      <div className="mt-2">
+      <div className="mt-4">
         <ul className="flex flex-col gap-4">
           {/* Home Section */}
           <li
             className="hover:text-red-800 hover:text-shadow-md transition-colors duration-300 ease-in-out cursor-pointer text-lg
-          bg-gray-700"
+          bg-gray-800"
           >
             <Link href="#home" className="flex items-center gap-3 w-full ">
               <svg
@@ -101,7 +101,7 @@ const Sidebar = () => {
                   points="16,6.073 26.223,18 31.522,18 16,-0.073 0.48,18 5.777,18"
                 ></polygon>
               </svg>
-              <span>HOME</span>
+              <span className="font-bold">HOME</span>
             </Link>
           </li>
 
@@ -155,7 +155,7 @@ const Sidebar = () => {
           </div>  */}
 
           {/* Projects Section */}
-          <li className="hover:text-red-800 hover:text-shadow-md transition-colors duration-300 ease-in-out cursor-pointer text-lg bg-gray-700">
+          <li className="hover:text-red-800 hover:text-shadow-md transition-colors duration-300 ease-in-out cursor-pointer text-lg bg-gray-800">
             <Link href="#projects" className="flex items-center gap-3 w-full ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -178,12 +178,12 @@ const Sidebar = () => {
                   points="1.396,26 0.507,30 27.1,30 27.988,26"
                 ></polygon>
               </svg>
-              <span>PROJECTS</span>
+              <span className="font-bold">PROJECTS</span>
             </Link>
           </li>
 
           {/* Contact Section */}
-          <li className="hover:text-red-800 hover:text-shadow-md shadow-2xl transition-colors duration-300 ease-in-out cursor-pointer text-lg bg-gray-700">
+          <li className="hover:text-red-800 hover:text-shadow-md shadow-2xl transition-colors duration-300 ease-in-out cursor-pointer text-lg bg-gray-800">
             <Link href="#contact" className="flex items-center gap-3 w-full ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -242,7 +242,7 @@ const Sidebar = () => {
                   d="M57,29c0-1.654-1.346-3-3-3v-2c1.654,0,3-1.346,3-3s-1.346-3-3-3v-5c0-2.757-2.243-5-5-5h-1 c0-1.103-0.897-2-2-2h-4c-1.103,0-2,0.897-2,2H23c-2.757,0-5,2.243-5,5v7.051C11.85,20.562,7,25.72,7,32s4.85,11.438,11,11.949V51 c0,2.757,2.243,5,5,5h17c0,1.103,0.897,2,2,2h4c1.103,0,2-0.897,2-2h1c2.757,0,5-2.243,5-5v-3c1.654,0,3-1.346,3-3s-1.346-3-3-3v-2 c1.654,0,3-1.346,3-3s-1.346-3-3-3v-2C55.654,32,57,30.654,57,29z M23,10h17v9H28c-1.103,0-2,0.897-2,2v1.273 c-1.718-1.24-3.771-2.037-6-2.222V13C20,11.346,21.346,10,23,10z M28,24.089V21h12v6H29.895C29.405,25.936,28.765,24.958,28,24.089z M9,32c0-5.514,4.486-10,10-10s10,4.486,10,10s-4.486,10-10,10S9,37.514,9,32z M23,54c-1.654,0-3-1.346-3-3v-7.051 C26.15,43.438,31,38.28,31,32c0-1.038-0.146-2.039-0.395-3H40v2h-7v2h7v2h-7v2h7v2h-7v2h7v2H30v2h10v9H23z M55,29 c0,0.552-0.448,1-1,1v-2C54.552,28,55,28.448,55,29z M55,21c0,0.552-0.448,1-1,1v-2C54.552,20,55,20.448,55,21z M42,56V8h4l0.002,48 H42z M55,45c0,0.552-0.448,1-1,1v-2C54.552,44,55,44.448,55,45z M55,37c0,0.552-0.448,1-1,1v-2C54.552,36,55,36.448,55,37z M52,36v6 h-2v2h2v7c0,1.654-1.346,3-3,3h-1V10h1c1.654,0,3,1.346,3,3v5h-2v2h2v6h-2v2h2v6h-2v2H52z"
                 ></path>
               </svg>
-              <span className="hover:text-red-800  cursor-pointer">
+              <span className="hover:text-red-800 font-bold cursor-pointer">
                 CONTACT
               </span>
             </Link>
@@ -281,11 +281,6 @@ const Sidebar = () => {
           <img src="../docker.svg" alt="Tech 3" className="w-10 h-10" />
           <img src="../selenium.svg" alt="Tech 3" className="w-10 h-10" />
           <img src="../postman.svg" alt="Tech 3" className="w-10 h-10" />
-
-          
-      
-
-
 
           {/* Add more logos as needed */}
         </div>
